@@ -369,7 +369,6 @@ button:focus {
 .team-item {
     background-color: #FFFFFF;
     width: calc((100% - 1 * 24px) / 1);
-    /* width: calc((100% - 3 * 24px) / 4); */
     box-shadow: 0px 1px 6px 
     rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 
@@ -480,7 +479,11 @@ button:focus {
 .customer-icon {
     fill: currentColor;
 }
-/* ========FOOTER======== */
+/**
+  |============================
+  | Footer
+  |============================
+*/
 .footer {
     background-color: var(--color-grey);
     padding: 100px 0;
