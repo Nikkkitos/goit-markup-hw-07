@@ -52,7 +52,7 @@ img {
 }
 
 /* Desktop screen >=1158 */
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -311,7 +311,7 @@ button:focus {
     padding: 100px 0;
   }
 }
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1200px) {
   .team {
     padding: 120px 0;
   }
@@ -325,7 +325,7 @@ button:focus {
     max-width: 552px;
   }
 }
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1200px) {
     .team-container {
         max-width: 1128px;
     }
@@ -358,7 +358,7 @@ button:focus {
     gap: 24px;
   }
 }
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1200px) {
     .team-list {
         flex-direction: row;
         gap: 24px;
@@ -450,9 +450,22 @@ button:focus {
 }
 .customers-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 72px 16px;
     padding-left: 0;
     margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  .customers-list {
+    
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .customers-list {
+    
+  }
 }
 .customers-item {
     width: calc((100% - 120px) / 6);
